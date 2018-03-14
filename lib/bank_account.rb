@@ -4,6 +4,6 @@ class BankAccount
   
   def initialize(name)
     @name = name
-    @status = 
+    @status = "open"
   end
 end
