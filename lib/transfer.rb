@@ -19,6 +19,7 @@ class Transfer
       @receiver.balance += amount
     else
       
+    end
   end
   
   def reverse_transfer
