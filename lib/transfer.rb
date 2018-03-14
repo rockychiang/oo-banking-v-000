@@ -9,5 +9,13 @@ class Transfer
     @status = "pending"
   end
   
+  def valid?
+    
+  end
   
+  def execute_transaction
+    
+  end
+  
+  def reverse_
 end
