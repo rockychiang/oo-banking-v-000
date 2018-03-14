@@ -10,7 +10,7 @@ class Transfer
   end
   
   def valid?
-    
+    @sender.valid? && @receiver.valid?
   end
   
   def execute_transaction
@@ -18,4 +18,6 @@ class Transfer
   end
   
   def reverse_transfer
+    
+  end
 end
