@@ -3,7 +3,8 @@ class Transfer
   attr_reader :name
   
   def initialize(from, to, amount)
-    @name = name
+    @sender = from
+    @receiver = to
     @balance = 1000
     @status = "open"
   end
